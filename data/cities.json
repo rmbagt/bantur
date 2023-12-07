@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "cityName": "Bandung",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-07T15:29:48.459Z",
+      "notes": "Jalan-jalan",
+      "position": {
+        "lat": "-6.914729252097723",
+        "lng": "107.61245727539064"
+      },
+      "id": 1
+    }
+  ]
+}
