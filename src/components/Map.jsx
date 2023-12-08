@@ -6,6 +6,7 @@ import {
   Popup,
   useMap,
   useMapEvents,
+  Polyline,
 } from "react-leaflet";
 
 import styles from "./Map.module.css";
@@ -40,6 +41,11 @@ function Map() {
     [geolocationPosition]
   );
 
+  // Sort cities based on date in ascending order
+  const sortedCities = cities.sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  );
+
   return (
     <div className={styles.mapContainer}>
       {!geolocationPosition && (
@@ -58,7 +64,7 @@ function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
-        {cities.map((city) => (
+        {sortedCities.map((city) => (
           <Marker
             position={[city.position.lat, city.position.lng]}
             key={city.id}
@@ -71,6 +77,7 @@ function Map() {
 
         <ChangeCenter position={mapPosition} />
         <DetectClick />
+        <ConnectCities cities={sortedCities} />
       </MapContainer>
     </div>
   );
@@ -88,6 +95,14 @@ function DetectClick() {
   useMapEvents({
     click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
+}
+
+function ConnectCities({ cities }) {
+  const polylinePositions = cities.map((city) => [
+    city.position.lat,
+    city.position.lng,
+  ]);
+  return <Polyline positions={polylinePositions} />;
 }
 
 export default Map;

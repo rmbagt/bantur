@@ -52,7 +52,7 @@ export default function Login() {
         </div>
 
         <div>
-          <Button type="primary" onClick={() => handleSubmit}>
+          <Button type="primary" onClick={handleSubmit}>
             Login
           </Button>
           <Button

@@ -11,6 +11,66 @@
         "lng": "107.61245727539064"
       },
       "id": 1
+    },
+    {
+      "cityName": "Ciwastra",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-10T14:23:19.000Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.9603141004965785",
+        "lng": "107.66344070434572"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Bale Endah",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-08T14:42:26.646Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.927192304259004",
+        "lng": "107.67056465148927"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "lengkong",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-08T14:47:24.953Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.9419163648751105",
+        "lng": "107.62258529663087"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Gedebage",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-09T14:56:32.000Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.943778269152561",
+        "lng": "107.69313812255861"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Jakarta",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-12-11T14:57:16.000Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.210793963620719",
+        "lng": "106.84272766113281"
+      },
+      "id": 7
     }
   ]
 }

@@ -14,9 +14,13 @@ function CityList() {
       <Message message="Add your first city by clicking on a city on the map" />
     );
 
+  const sortedCities = [...cities].sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  );
+
   return (
     <ul className={styles.cityList}>
-      {cities.map((city) => (
+      {sortedCities.map((city) => (
         <CityItem city={city} key={city.id} />
       ))}
     </ul>
