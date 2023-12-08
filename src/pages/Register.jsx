@@ -5,10 +5,11 @@ import PageNav from "../components/PageNav";
 import { useAuth } from "../contexts/FakeAuthContext";
 import styles from "./Login.module.css";
 
-export default function Login() {
-  // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("jack@example.com");
-  const [password, setPassword] = useState("qwerty");
+function Register() {
+  const { name, setName } = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
@@ -32,6 +33,16 @@ export default function Login() {
 
       <form className={styles.form}>
         <div className={styles.row}>
+          <label htmlFor="name">Name</label>
+          <input
+            type="name"
+            id="name"
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+          />
+        </div>
+
+        <div className={styles.row}>
           <label htmlFor="email">Email address</label>
           <input
             type="email"
@@ -51,18 +62,30 @@ export default function Login() {
           />
         </div>
 
+        <div className={styles.row}>
+          <label htmlFor="passwordConfirmation">Confirmation password</label>
+          <input
+            type="passwordConfirmation"
+            id="passwordConfirmation"
+            onChange={(e) => setPasswordConfirmation(e.target.value)}
+            value={passwordConfirmation}
+          />
+        </div>
+
         <div>
           <Button type="primary" onClick={() => handleSubmit}>
-            Login
+            Register
           </Button>
           <Button
             type="secondary"
-            onClick={() => navigate("/register", { replace: true })}
+            onClick={() => navigate("/login", { replace: true })}
           >
-            Register
+            Login
           </Button>
         </div>
       </form>
     </main>
   );
 }
+
+export default Register;

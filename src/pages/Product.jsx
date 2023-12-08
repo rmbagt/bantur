@@ -9,7 +9,7 @@ export default function Product() {
       <section>
         <img
           src="img-1.jpg"
-          alt="person with dog overlooking mountain with sunset"
+          alt="braga street bandung"
           style={{ height: "260px", borderRadius: "10px" }}
         />
         <div>

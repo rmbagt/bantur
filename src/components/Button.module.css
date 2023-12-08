@@ -15,6 +15,13 @@
   color: var(--color-dark--1);
 }
 
+.secondary {
+  font-weight: 700;
+  background-color: var(--color-dark--1);
+  color: var(--color-brand--2);
+  margin-left: 1.6rem;
+}
+
 .back {
   font-weight: 600;
   background: none;
