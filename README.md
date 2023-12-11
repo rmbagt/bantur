@@ -12,7 +12,6 @@ Stack used in this app
 
 - React JS
 - Vite
-- Tailwind CSS
 - Leaflet JS
 
 ## How it works?
