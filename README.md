@@ -1,8 +1,48 @@
-# React + Vite
+# Kelompok 13
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Member
 
-Currently, two official plugins are available:
+1. Reynaldo Marchell Bagas Adji - 2602138214
+2. Aaron Kenny Rijadi - 2602115015
+3. Nicholas Christian - 2602138113
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Information
+
+Stack used in this app
+
+- React JS
+- Vite
+- Tailwind CSS
+- Leaflet JS
+
+## Installation
+
+1. Clone this repository
+
+```bash
+  git https://github.com/reynaldomarchell/bantur.git
+```
+
+2.  Go to the project directory
+
+```bash
+  cd bantur
+```
+
+3. Install the dependencies
+
+```bash
+  npm i
+```
+
+4. Start the json server
+
+```bash
+  npm run server
+```
+
+5. Start the app
+
+```bash
+  npm run dev
+```
