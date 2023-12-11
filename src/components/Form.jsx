@@ -102,7 +102,7 @@ function Form() {
       onSubmit={handleSubmit}
     >
       <div className={styles.row}>
-        <label htmlFor="cityName">City name</label>
+        <label htmlFor="cityName">Destination name</label>
         <input
           id="cityName"
           onChange={(e) => setCityName(e.target.value)}
@@ -112,7 +112,7 @@ function Form() {
       </div>
 
       <div className={styles.row}>
-        <label htmlFor="date">When did you go to {cityName}?</label>
+        <label htmlFor="date">When did you go to this place?</label>
 
         <DatePicker
           id="date"
@@ -123,7 +123,7 @@ function Form() {
       </div>
 
       <div className={styles.row}>
-        <label htmlFor="notes">Notes about your trip to {cityName}</label>
+        <label htmlFor="notes">Notes about your trip to this place</label>
         <textarea
           id="notes"
           onChange={(e) => setNotes(e.target.value)}
