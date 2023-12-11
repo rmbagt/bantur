@@ -28,7 +28,7 @@ Stack used in this app
 1. Clone this repository
 
 ```bash
-  git https://github.com/reynaldomarchell/bantur.git
+  git clone https://github.com/reynaldomarchell/bantur.git
 ```
 
 2.  Go to the project directory
