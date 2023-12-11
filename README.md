@@ -15,6 +15,14 @@ Stack used in this app
 - Tailwind CSS
 - Leaflet JS
 
+## How it works?
+
+1. Select the destination you want to go to by clicking on the map
+2. Select the destination date
+3. Press the Add button
+4. Choose another destination
+5. Routes will be sorted by time
+
 ## Installation
 
 1. Clone this repository
