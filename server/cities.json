@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "BINUS Bandung",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2023-12-11T14:19:47.931Z",
-      "notes": "Ada kelas di kampus",
-      "position": {
-        "lat": "-6.915753944001507",
-        "lng": "107.59353160858156"
-      },
-      "id": 1
-    },
-    {
       "cityName": "Lengkong Kecil",
       "country": "Indonesia",
       "emoji": "🇮🇩",
@@ -71,6 +59,18 @@
         "lng": "107.6887607574463"
       },
       "id": 6
+    },
+    {
+      "cityName": "Bandara Husein",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-01T17:33:38.670Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.900904236370787",
+        "lng": "107.57846832275392"
+      },
+      "id": 7
     }
   ]
 }
