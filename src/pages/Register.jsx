@@ -22,7 +22,7 @@ function Register() {
 
   useEffect(
     function () {
-      if (isAuthenticated) navigate("/app", { replace: true });
+      if (isAuthenticated) navigate("/app");
     },
     [isAuthenticated, navigate]
   );
@@ -76,10 +76,7 @@ function Register() {
           <Button type="primary" onClick={() => handleSubmit}>
             Register
           </Button>
-          <Button
-            type="secondary"
-            onClick={() => navigate("/login", { replace: true })}
-          >
+          <Button type="secondary" onClick={() => navigate("/login")}>
             Login
           </Button>
         </div>

@@ -21,7 +21,7 @@ export default function Login() {
 
   useEffect(
     function () {
-      if (isAuthenticated) navigate("/app", { replace: true });
+      if (isAuthenticated) navigate("/app");
     },
     [isAuthenticated, navigate]
   );
@@ -55,10 +55,7 @@ export default function Login() {
           <Button type="primary" onClick={handleSubmit}>
             Login
           </Button>
-          <Button
-            type="secondary"
-            onClick={() => navigate("/register", { replace: true })}
-          >
+          <Button type="secondary" onClick={() => navigate("/register")}>
             Register
           </Button>
         </div>
