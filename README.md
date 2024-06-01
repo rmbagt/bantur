@@ -8,7 +8,13 @@
 
 ## Information
 
-Stack used in this app
+Introducing Bandung City Tour—a meticulously crafted itinerary designed to showcase the city highlights.
+
+### Preview
+
+![Preview](dashboard.png)
+
+### Stack used in this app
 
 - React JS
 - Vite
