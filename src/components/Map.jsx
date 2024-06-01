@@ -56,7 +56,7 @@ function Map() {
 
       <MapContainer
         center={mapPosition}
-        zoom={6}
+        zoom={12}
         scrollWheelZoom={true}
         className={styles.map}
       >
@@ -77,7 +77,7 @@ function Map() {
 
         <ChangeCenter position={mapPosition} />
         <DetectClick />
-        <ConnectCities cities={sortedCities} />
+        {/* <ConnectCities cities={sortedCities} /> */}
       </MapContainer>
     </div>
   );

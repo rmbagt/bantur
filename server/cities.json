@@ -59,6 +59,18 @@
         "lng": "107.6010847091675"
       },
       "id": 5
+    },
+    {
+      "cityName": "Summarecon",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-01T16:26:25.407Z",
+      "notes": "Olahraga",
+      "position": {
+        "lat": "-6.952366412691363",
+        "lng": "107.6887607574463"
+      },
+      "id": 6
     }
   ]
 }
