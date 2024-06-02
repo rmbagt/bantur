@@ -59,6 +59,18 @@
         "lng": "107.60703384876253"
       },
       "id": 5
+    },
+    {
+      "cityName": "Bandara Husein",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-09T02:45:35.000Z",
+      "notes": "Pulang",
+      "position": {
+        "lat": "-6.901716050551056",
+        "lng": "107.5770950317383"
+      },
+      "id": 6
     }
   ]
 }

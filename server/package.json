@@ -1,11 +1,11 @@
 {
-  "name": "json-server-vercel",
+  "name": "bantur-server",
   "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
-  "main": "api/server.js",
+  "description": "JSON Server for Bantur",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/server.js",
-    "server": "nodemon api/server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "dependencies": {
     "json-server": "^0.17.4",
