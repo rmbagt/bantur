@@ -55,9 +55,6 @@ export default function Login() {
           <Button type="primary" onClick={handleSubmit}>
             Login
           </Button>
-          <Button type="secondary" onClick={() => navigate("/register")}>
-            Register
-          </Button>
         </div>
       </form>
     </main>

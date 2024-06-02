@@ -20,7 +20,6 @@ import SpinnerFullPage from "./components/SpinnerFullPage";
 const Homepage = lazy(() => import("./pages/Homepage"));
 const Product = lazy(() => import("./pages/Product"));
 const Login = lazy(() => import("./pages/Login"));
-const Register = lazy(() => import("./pages/Register"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 
@@ -37,7 +36,6 @@ function App() {
               <Route index element={<Homepage />} />
               <Route path="product" element={<Product />} />
               <Route path="login" element={<Login />} />
-              <Route path="register" element={<Register />} />
               <Route
                 path="app"
                 element={
