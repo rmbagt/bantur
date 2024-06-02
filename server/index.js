@@ -11,3 +11,6 @@ server.use('/', router)
 server.listen(8000, () => {
   console.log('JSON Server is running on http://localhost:8000')
 })
+
+// eslint-disable-next-line no-undef
+module.exports = server
