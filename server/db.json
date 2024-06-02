@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "cityName": "Summarecon",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-02T02:14:09.184Z",
+      "notes": "Olahraga",
+      "position": {
+        "lat": "-6.955645703252846",
+        "lng": "107.69464015960695"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Gedung Sate",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-02T02:14:28.134Z",
+      "notes": "Jalan-jalan",
+      "position": {
+        "lat": "-6.902499759356119",
+        "lng": "107.61874973773958"
+      },
+      "id": 2
+    },
+    {
+      "cityName": "23 Paskal",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-03T02:16:10.000Z",
+      "notes": "Nonton Film",
+      "position": {
+        "lat": "-6.91533899789906",
+        "lng": "107.59421288967133"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "ITB",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-07T02:16:50.000Z",
+      "notes": "Jalan-jalan",
+      "position": {
+        "lat": "-6.892472655664422",
+        "lng": "107.61031150817873"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Alun Alun",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2024-06-08T02:20:43.000Z",
+      "notes": "Nyari makan",
+      "position": {
+        "lat": "-6.921777026233259",
+        "lng": "107.60703384876253"
+      },
+      "id": 5
+    }
+  ]
+}
