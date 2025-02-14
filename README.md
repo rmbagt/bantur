@@ -33,7 +33,7 @@ Introducing Bandung City Tour—a meticulously crafted itinerary designed to sho
 1. Clone this repository
 
 ```bash
-  git clone https://github.com/reynaldomarchell/bantur.git
+  git clone https://github.com/rmbagt/bantur.git
 ```
 
 2.  Go to the project directory

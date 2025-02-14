@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "https://bantur-server.vercel.app";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const CitiesContext = createContext();
 
